@@ -1,0 +1,74 @@
+@import "var";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: @my-background-color;
+}
+
+*{
+  //font-family: "italic", Helvetica, Arial, "Heiti SC", "Microsoft YaHei";;
+}
+
+.common-input{
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: none;
+  color: #565656;
+  font-size: .875rem;
+  line-height: 1.2;
+  min-height: 2.5em;
+  padding: .2em 1.07em;
+  border: 1px solid #e8e8e8;
+}
+
+.common-select{
+  width: 100%;
+  min-height: 2.5em;
+}
+
+.disabled-input{
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+
+.input-group{
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+  .submit-button{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 2.5em;
+    width: 100%;
+  }
+  .small-button{
+    font-size: 16px;
+    margin-top: 15px;
+    height: 2.5em;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 35%;
+    max-width: 200px;
+  }
+  .small-button:nth-child(2){
+    margin-left: 10px;
+  }
+  label{
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  input,textarea{
+    width: 100%;
+  }
+}
+
+.ant-timeline-item-content{
+  p{
+    word-break: break-all;
+  }
+}
